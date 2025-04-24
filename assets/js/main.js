@@ -78,7 +78,7 @@ function teste(number){
     setTimeout(function() {
         modal.classList.remove("hidden")
         modal.classList.add("visible")
-      }, 150);
+      }, 200);
     
 }
 
