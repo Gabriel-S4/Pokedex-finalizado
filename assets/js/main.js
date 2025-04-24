@@ -75,8 +75,11 @@ function teste(number){
         document.getElementById("imagemPokemon").src = pokemon.sprites.other.dream_world.front_default
     })
 
-    modal.classList.remove("hidden")
-    modal.classList.add("visible")
+    setTimeout(function() {
+        modal.classList.remove("hidden")
+        modal.classList.add("visible")
+      }, 150);
+    
 }
 
 function showhiddenModal(){
